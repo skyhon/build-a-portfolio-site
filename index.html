@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Project 1</title>
+        <!-- stylesheets -->
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Mandali">
+        <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Noto+Sans:400,700'>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link type="text/css" rel="stylesheet" href="css/style.css">
+        <!-- javascript -->
+        <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <!-- header -->
+        <section class="row">
+            <header class="col-md-12 col-sm-12 col-xs-12">
+                <div id="siteLogoContainer" class="col-md-6 col-xs-6">
+                    <img src="images/p1_UdacityLogo.jpg" alt="Site Log" id="siteLogo">
+                </div>
+                <div class="siteTitle col-md-6 col-xs-6">
+                    <h1 id="developerName" class="text-right">Steve Hon</h1>
+                    <h3 id="jobTitle" class="text-right">Front-End Ninja</h3>
+                </div>
+            </header>
+            <!-- content -->
+            <div id="content" class="col-md-12 col-sm-12 col-xs-12">
+                <div id="titleImageContainer" class="col-md-12">
+                    <img src="images/p1_TitleImage.jpg" id="titleImage" class="img-responsive center-block" alt="Title Image" />
+                </div>
+            </div>
+            <!-- footer -->
+            <footer class="col-md-12 col-sm-12 col-xs-12">
+                <h2 class="fwTitle col-md-12 col-xs-12 gray">Featured Work</h2>
+                <div class="projectContainer col-md-4 col-xs-6">
+                    <img src="images/p1_Applify.jpg"
+                         class="fwImage img-responsive center-block"
+                         alt="Applify Image"
+                         data-toggle="modal"
+                         data-target="#applifyModal">
+                    <h3 class="projectTitle text-center col-md-12 col-xs-12"
+                        data-toggle="modal"
+                        data-target="#applifyModal">Applify
+                    </h3>
+                    <a class="projectUrl text-center" href="#"
+                       title="https://github.com/udacity/Appify/"
+                       data-toggle="modal"
+                       data-target="#applifyModal">https://github.com/udacity/Appify/</a>
+                </div>
+                <div class="projectContainer col-md-4 col-xs-6">
+                    <img src="images/p1_Sunflower.jpg"
+                         class="fwImage img-responsive center-block"
+                         alt="Sunflower Image"
+                         data-toggle="modal"
+                         data-target="#sunflowerModal">
+                    <h3 class="projectTitle text-center col-md-12 col-xs-12"
+                        data-toggle="modal"
+                        data-target="#sunflowerModal">Sunflower
+                    </h3>
+                    <a class="projectUrl text-center" href="#"
+                       title="https://github.com/udacity/Sunflower/"
+                       data-toggle="modal"
+                       data-target="#sunflowerModal">https://github.com/udacity/Sunflower/
+                    </a>
+                </div>
+                <div class="projectContainer col-md-4 col-xs-6">
+                    <img src="images/p1_Bokeh.jpg"
+                         class="fwImage img-responsive center-block"
+                         alt="Bokeh Image"
+                         data-toggle="modal"
+                         data-target="#bokehModal">
+                    <h3 class="projectTitle text-center col-md-12 col-xs-12"
+                        data-toggle="modal"
+                        data-target="#bokehModal">>Bokeh
+                    </h3>
+                    <a class="projectUrl text-center" href="#"
+                       title="https://github.com/udacity/Bokeh/"
+                       data-toggle="modal"
+                       data-target="#bokehModal">https://github.com/udacity/Bokeh/
+                    </a>
+                </div>
+            </footer>
+            <!-- Modal Applify -->
+            <div class="modal fade" id="applifyModal" tabindex="-1" role="dialog" aria-labelledby="applifyModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="applifyModalLabel">Applify</h4>
+                        </div>
+                        <div class="modal-body">
+                            ...
+                        </div>
+                        <div class="modal-footer">
+                            <butto type="button" class="btn btn-default" data-dismiss="modal">Close</butto>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal Sunflower -->
+            <div class="modal fade" id="sunflowerModal" tabindex="-1" role="dialog" aria-labelledby="sunflowerModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="sunflowerModalLabel">Sunflower</h4>
+                        </div>
+                        <div class="modal-body">
+                            ...
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal Bokeh -->
+            <div class="modal fade" id="bokehModal" tabindex="-1" role="dialog" aria-labelledby="bokehModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="bokehModalLabel">Bokeh</h4>
+                        </div>
+                        <div class="modal-body">
+                            ...
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>
